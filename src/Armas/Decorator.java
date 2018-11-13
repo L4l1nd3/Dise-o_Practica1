@@ -1,3 +1,4 @@
+package Armas;
 //Se deberá emplear un patrón Decorator para gestionar las distintas acciones a
 //realizar por los personajes: se decorará la acción básica con los modificadores adecuados
 //dependiendo de la estrategia y las características del personaje. Por ejemplo, si el personaje

@@ -1,3 +1,4 @@
+package Players;
 //Se deberá utilizar el patrón STRATEGY para gestionar el conjunto de estrategias
 //posibles y la estrategia que en cada combate adopte el enemigo de turno.
 
