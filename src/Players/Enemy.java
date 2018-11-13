@@ -10,8 +10,8 @@ package Players;
 //ejemplo, los brujos de la selva podrían hacer vuelos cortos y los brujos del mar vuelos
 //largos).
 
-public class Enemy extends Personaje {
-
+public abstract class Enemy extends Personaje {
+	
 	Enemy(int intelecto, int fuerza, int HP, int mana, String nombre) {
 		super(intelecto, fuerza, HP, mana, nombre);
 		// TODO Auto-generated constructor stub
