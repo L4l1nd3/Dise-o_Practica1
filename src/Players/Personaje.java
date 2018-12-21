@@ -10,7 +10,7 @@ public abstract class Personaje {
 	Estado state;
 	
 	
-	//Arma armado; A falta d eimplementar.
+	//Arma armado; A falta d eimplementar. 	 		
 	Personaje(int intelecto, 
 			int fuerza,
 			int HP, 
