@@ -1,27 +1,25 @@
 package Players;
-// Sería la polla tenr esta clase para los personajes, luego 2 para enemigos y mainCharacter y 
-// luego cada tipo de enemigo, (mago agua, mago fuego, mago aire, mago...)
+
 public abstract class Personaje {
-	int intelecto, fuerza, HP, mana; //Atributos principales.
+	int vida;
+	int fuerza;
+	int fortaleza;
+	int stamina;
+	
 	String nombre;
 	
-	
+	//Esto no se porque pero ya lo habíamos metido con el prfeo asi que!
 	Estrategias strategy;
 	Estado state;
 	
 	
 	//Arma armado; A falta d eimplementar. 	 		
-	Personaje(int intelecto, 
-			int fuerza,
-			int HP, 
-			int mana, 
-			String nombre){
-		
-	this.intelecto = intelecto;
-	this. fuerza = fuerza;
-	this.HP = HP;
-	this.mana = mana;
-	this.nombre = nombre;
+	Personaje(int vida, int fuerza, int fortaleza, int stamina, String nombre){
+		this.vida = vida;
+		this. fuerza = fuerza;
+		this.fortaleza = fortaleza;
+		this.stamina = stamina;
+		this.nombre = nombre;
 	}
 		
 }
